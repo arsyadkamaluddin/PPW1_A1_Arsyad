@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sel Kosong</title>
+</head>
+<body>
+    <ol>
+        <li>Data pada baris nomor 1 berisi data kosong</li>
+        <li>Sel asal dari baris nomor 2 juga kosong</li>
+        <li>namun pada nomor 1 tetap memiliki border, sedangkan 2 tidak</li>
+        <li>Untuk menghindari hal tersebut maka digunakan karakter & nbsp ; tanpa spasi </li>
+    </ol>
+    <center>
+        <table border width="300px">
+            <thead>
+                <tr>
+                    <th colspan="4">Data Mahasiswa</th>
+                </tr>
+                <tr>
+                    <th width="30px">No</th>
+                    <th>Nama</th>
+                    <th>NIM</th>
+                    <th>Asal</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Idab</td>
+                    <td>098567</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Joyse</td>
+                    <td>123765</td>
+                    <td>Jakarta</td>
+                </tr>
+            </tbody>
+            <tfoot></tfoot>
+        </table>
+    </center>
+</body>
+</html>
