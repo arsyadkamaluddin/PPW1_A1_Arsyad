@@ -3,13 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabel</title>
+    <title>Background Tabel</title>
 </head>
 <body>
+    <ol><li>Untuk menambahkan background pada tabel digunakan atribut background diisi dengan sumber gambar</li>
+    </ol>
     <center>
-        <h4>Data Mahasiswa</h4>
-        <table border width="300px">
+        <table border width="300px" background="https://purepng.com/public/uploads/large/91508177282ridnmj7jqmzdl6kti5gte7z4tquaei8z8698qhvrbgbeamla3xnjgd83vkvs3b2cuohgxxpzphxvuvslp0bk6rykffhqizclgd3d.png">
             <thead>
+                <tr>
+                    <th colspan="4">Data Mahasiswa</th>
+                </tr>
                 <tr>
                     <th width="30px">No</th>
                     <th>Nama</th>
@@ -22,13 +26,12 @@
                     <td>1</td>
                     <td>Budi</td>
                     <td>237651</td>
-                    <td>Surabaya</td>
+                    <td rowspan="2">Surabaya</td>
                 </tr>
                 <tr>
                     <td>2</td>
                     <td>Idab</td>
                     <td>098567</td>
-                    <td>Klaten</td>
                 </tr>
                 <tr>
                     <td>3</td>
@@ -37,6 +40,7 @@
                     <td>Jakarta</td>
                 </tr>
             </tbody>
+            <tfoot></tfoot>
         </table>
     </center>
 </body>
