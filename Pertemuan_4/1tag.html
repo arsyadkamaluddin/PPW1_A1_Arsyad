@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Data Diri</legend>
+        <form oninput="res.value=(parseInt(gaji.value)-parseInt(pajak.value))*10000;gajiKotor.value=parseInt(gaji.value)*10000;pajakKotor.value=parseInt(pajak.value)*10000;">
+            <label for="">Kota</label> :
+            <input list="kota">
+            <datalist id="kota">
+                <option value="Solo">
+                <option value="Jogja">
+                <option value="Semarang">
+            </datalist>
+            <br>
+            <br>
+                <label for="">Gaji Kotor</label><br>
+                <input type="range" name="gaji" id="gaji">
+                <output name="gajiKotor" for="gaji"></output>
+                <br>
+                <label for="">Pajak</label><br>
+                <input type="range" name="pajak" id="pajak">
+                <output name="pajakKotor" for="pajak"></output><br>
+            Rp. <output name="res" for="gaji pajak"></output><br><br>
+            <label for="">Mobil :</label> 
+            <select name="" id="">
+                <optgroup label="Toyota">
+                    <option>Avanza</option>             
+                    <option>Rush</option>             
+                </optgroup>
+                <optgroup label="Honda">
+                    <option>Jazz</option>             
+                    <option>Mobilio</option>             
+                </optgroup>
+            </select>
+        </form>
+
+    </fieldset>
+</body>
+</html>
