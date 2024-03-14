@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 30px;
+}
+div{
+    background-color: red;
+    padding: 50px;
+}
+.indent{
+    text-indent: 20px;
+}
+.spacing{
+    letter-spacing: 5px;
+}
+.word{
+    word-spacing: 5px;
+}
+.line{
+    line-height: 30px;
+}
+.white{
+    white-space: nowrap;
+}
