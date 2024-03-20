@@ -9,17 +9,12 @@ header{
     background-color: #679289;
     justify-content: space-between;
     display: flex;
-    padding: 20px;
-    padding-right: 40px;
+    padding: 20px 40px 20px 20px;
 }
 body{
     background-color: #071E22;
     
 }
-nav{
-    display: inline-block;
-}
-
 ul{
     display: flex;
     flex-direction: row;
@@ -29,11 +24,14 @@ ul{
 li{
     width: 80px;
     text-align:center;
-    padding: 10px 0 10px 0;
+    padding: 10px 0;
 }
 ul li:hover{
     color: white;
     background-color: #1D7874;
+}
+.kontak{
+    display: none;
 }
 .kontak li:hover{
     background-color: rgba(0, 0, 0, 0);
@@ -42,10 +40,6 @@ ul li:hover{
     display: block;
     position: absolute;
     margin: auto;
-    /* background-color: black; */
-}
-.kontak{
-    display: none;
 }
 main div{
     width: 60%;
@@ -56,10 +50,9 @@ form{
     box-shadow: 10px 10px 30px -17px rgba(114, 114, 114, 0.662);
     margin: auto;
     border-radius: 10px;
-    /* display: inline-block; */
     background-color: #6792893b;
     width: 300px;
-    padding: 10px 5px 10px 5px;
+    padding: 10px 5px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -71,7 +64,7 @@ form input{
     background-color: #6792893b;
     height: 40px;
     width: 80%;
-    margin: 20px auto 20px auto;
+    margin: 20px auto;
 }
 input:last-of-type{
     padding: 0;
@@ -80,24 +73,35 @@ input:last-of-type{
     font-weight: bold;
     width: 30%;
 }
+input:last-of-type:hover{
+    background-color: #1D7874;
+    transform: scale(1.01);
+}
 aside{
     display: inline-block;
     width: 30%;
     padding: 50px;
     position: absolute;
 }
-section{
-}
 article{
     background-color: #6792895e;
     margin-top: 20px;
     padding: 15px;
 }
-article:hover{
+article:hover a,article:hover p,article:hover{
     background-color: #071E22;
     color: white;
 }
 article a{
     font-size: 20px;
     font-weight: bold;
+}
+footer{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    background-color: #679289;
+    padding-bottom: 40px;
+    padding-top: 20px;
 }
