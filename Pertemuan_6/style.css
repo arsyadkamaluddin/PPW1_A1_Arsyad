@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 *{
   font-family: "Manrope", sans-serif;
-  /* font-size: 13px; */
   border: 0;
   padding: 0;
   margin: 0;
@@ -23,12 +22,10 @@ body{
     width: 60%;
     border-radius: 15px;
     display: flex;
-    /* margin: auto; */
+    box-shadow: 5px 5px 13px -2px rgba(0,0,0,0.56);
+-webkit-box-shadow: 5px 5px 13px -2px rgba(0,0,0,0.56);
+-moz-box-shadow: 5px 5px 13px -2px rgba(0,0,0,0.56);
 }
-/* - Very Dark Grayish Blue: hsl(217, 19%, 35%)
-- Desaturated Dark Blue: hsl(214, 17%, 51%)
-- Grayish Blue: hsl(212, 23%, 69%)
-- Light Grayish Blue: hsl(210, 46%, 95%) */
 .right{
     width: 60%;
     padding: 55px;
@@ -77,7 +74,6 @@ svg{
     border-radius: 100%;
 }
 .share{
-    /* display: none; */
     position: relative;
     background-color: #4c596a;
     color: white;
@@ -111,7 +107,6 @@ svg{
         padding: 0px;
     }
     .share{
-        /* position: absolute; */
         left: -72vw;
         width: 90vw;
         top: -30px;
