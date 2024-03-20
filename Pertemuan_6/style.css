@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+*{
+  font-family: "Manrope", sans-serif;
+  /* font-size: 13px; */
+  border: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(210, 46%, 95%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    background-color: white;
+    width: 60%;
+    border-radius: 15px;
+    display: flex;
+    /* margin: auto; */
+}
+/* - Very Dark Grayish Blue: hsl(217, 19%, 35%)
+- Desaturated Dark Blue: hsl(214, 17%, 51%)
+- Grayish Blue: hsl(212, 23%, 69%)
+- Light Grayish Blue: hsl(210, 46%, 95%) */
+.right{
+    width: 60%;
+    padding: 55px;
+}
+.left{
+    background-image: url("assets/drawers.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: red;
+    width: 40%;
+    border-radius: 15px 0 0 15px;
+}
+.contact{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.detail{
+}
+.detail p{
+    font-size: 12px;
+}
+.icon{
+    text-align: center;
+    padding: 5px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    background-color: hsl(210, 46%, 95%);
+    margin-left: 40%;
+}
+.contact img{
+    border-radius: 100%;
+}
+.share{
+    display: none;
+}
+/* MOBILE */
+@media only screen and (max-width: 768px) {
+    
+  }
