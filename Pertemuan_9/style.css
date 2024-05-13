@@ -99,8 +99,8 @@ main a:last-child{
     border: 1px solid white;
 }
 input{
-    width: min-content;
-    background-color: #ffffff;
+    width: 150px;
+    background-color: #ffffff00;
     border: none;
     padding-left: 30px;
     border-radius: 0px;
